@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/dynamic-webapps/library-management-bg.png');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-heading {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.search-input {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.app-description {
+    font-style: italic;
+    max-width: 600px;
+    font-size: 14px;
+    color: #3a3b3b;
+    line-height: 1.5;
+}
+
+.result-heading {
+    color: #323f4b;
+    font-size: 28px;
+    padding: 14px 0;
+}
+
+.spinner-element {
+    display: block;
+    margin: 20px auto;
+    
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    box-shadow: #323f4b;
+}
